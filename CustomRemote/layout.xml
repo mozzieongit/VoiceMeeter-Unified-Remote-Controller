@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout color="#1ED760" onlaunch="initialize">
+	<tabs>
+		<tab text="Input">
+			<row>
+				<slider text="Strip 1" id="strip1" progress="200" progressmax="208" onchange="update01" />
+			</row>
+			<row>
+				<toggle id="strip01B01" checked="false" text="A1" color="blue" onchange="strip01A1" />
+				<toggle id="strip01B02" checked="false" text="A2" color="blue" onchange="strip01A2" />
+				<toggle id="strip01B03" checked="false" text="A3" color="blue" onchange="strip01A3" />
+				<toggle id="strip01B04" checked="false" text="B1" color="blue" onchange="strip01B1" />
+				<toggle id="strip01B05" checked="false" text="B2" color="blue" onchange="strip01B2" />
+				<toggle id="strip01B06" checked="false" text="m" color="blue"  onchange="strip01mono" />
+				<button text="C" color="black" ontap="connect" />
+				<toggle id="strip01B08" checked="false" text="M" color="red"   onchange="strip01mute" />
+			</row>
+			<row>
+				<slider text="Strip 2" id="strip2" progress="200" progressmax="208" onchange="update02" />
+			</row>
+			<row> 
+				<toggle id="strip02B01" checked="false" text="A1" color="blue" onchange="strip02A1" />
+				<toggle id="strip02B02" checked="false" text="A2" color="blue" onchange="strip02A2" />
+				<toggle id="strip02B03" checked="false" text="A3" color="blue" onchange="strip02A3" />
+				<toggle id="strip02B04" checked="false" text="B1" color="blue" onchange="strip02B1" />
+				<toggle id="strip02B05" checked="false" text="B2" color="blue" onchange="strip02B2" />
+				<toggle id="strip02B06" checked="false" text="m" color="blue"  onchange="strip02mono" />
+				<toggle id="strip02B07" checked="false" text="S" color="yellow" onchange="strip02solo" />
+				<toggle id="strip02B08" checked="false" text="M" color="red"   onchange="strip02mute" />
+			</row>
+			<row>
+				<slider text="Strip 3" id="strip3" progress="200" progressmax="208" onchange="update03" />
+			</row>
+			<row>
+				<toggle id="strip03B01" checked="false" text="A1" color="blue" onchange="strip03A1" />
+				<toggle id="strip03B02" checked="false" text="A2" color="blue" onchange="strip03A2" />
+				<toggle id="strip03B03" checked="false" text="A3" color="blue" onchange="strip03A3" />
+				<toggle id="strip03B04" checked="false" text="B1" color="blue" onchange="strip03B1" />
+				<toggle id="strip03B05" checked="false" text="B2" color="blue" onchange="strip03B2" />
+				<toggle id="strip03B06" checked="false" text="m" color="blue"  onchange="strip03mono" />
+				<toggle id="strip03B07" checked="false" text="S" color="yellow" onchange="strip03solo" />
+				<toggle id="strip03B08" checked="false" text="M" color="red"   onchange="strip03mute" />
+			</row>
+			<row>
+				<slider text="Strip 4" id="strip4" progress="200" progressmax="208" onchange="update04" />
+			</row>
+			<row>
+				<toggle id="strip04B01" checked="false" text="A1" color="blue" onchange="strip04A1" />
+				<toggle id="strip04B02" checked="false" text="A2" color="blue" onchange="strip04A2" />
+				<toggle id="strip04B03" checked="false" text="A3" color="blue" onchange="strip04A3" />
+				<toggle id="strip04B04" checked="false" text="B1" color="blue" onchange="strip04B1" />
+				<toggle id="strip04B05" checked="false" text="B2" color="blue" onchange="strip04B2" />
+				<toggle id="strip04B06" checked="false" text="M.C." color="red"  onchange="strip04mc" />
+				<toggle id="strip04B07" checked="false" text="S" color="yellow" onchange="strip04solo" />
+				<toggle id="strip04B08" checked="false" text="M" color="red"   onchange="strip04mute" />
+			</row>
+			<row>
+				<slider text="Strip 5" id="strip5" progress="200" progressmax="208" onchange="update05" />
+			</row>
+			<row>
+				<toggle id="strip05B01" checked="false" text="A1" color="blue" onchange="strip05A1" />
+				<toggle id="strip05B02" checked="false" text="A2" color="blue" onchange="strip05A2" />
+				<toggle id="strip05B03" checked="false" text="A3" color="blue" onchange="strip05A3" />
+				<toggle id="strip05B04" checked="false" text="B1" color="blue" onchange="strip05B1" />
+				<toggle id="strip05B05" checked="false" text="B2" color="blue" onchange="strip05B2" />
+				<toggle id="strip05B06" checked="false" text="M.C." color="red"  onchange="strip05mc" />
+				<toggle id="strip05B07" checked="false" text="S" color="yellow" onchange="strip05solo" />
+				<toggle id="strip05B08" checked="false" text="M" color="red"   onchange="strip05mute" />
+			</row>
+		</tab>
+		
+		<tab text="Output">
+			<row>
+				<slider text="Bus 1" id="bus1" progress="200" progressmax="208" onchange="update06" />
+			</row>
+			<row>
+				<toggle id="bus01B01" checked="false" text="Mono" color="blue"  onchange="bus01mono" />
+				<toggle id="bus01B02" checked="false" text="Mute" color="red"   onchange="bus01mute" />
+			</row>
+			<row>
+				<slider text="Bus 2" id="bus2" progress="200" progressmax="208" onchange="update07" />
+			</row>
+			<row>
+				<toggle id="bus02B01" checked="false" text="Mono" color="blue"  onchange="bus02mono" />
+				<toggle id="bus02B02" checked="false" text="Mute" color="red"   onchange="bus02mute" />
+			</row>
+			<row>
+				<slider text="Bus 3" id="bus3" progress="200" progressmax="208" onchange="update08" />
+			</row>
+			<row>
+				<toggle id="bus03B01" checked="false" text="Mono" color="blue"  onchange="bus03mono" />
+				<toggle id="bus03B02" checked="false" text="Mute" color="red"   onchange="bus03mute" />
+			</row>
+			<row>
+				<slider text="Bus 4" id="bus4" progress="200" progressmax="208" onchange="update09" />
+			</row>
+			<row>
+				<toggle id="bus04B01" checked="false" text="Mono" color="blue"  onchange="bus04mono" />
+				<toggle id="bus04B02" checked="false" text="Mute" color="red"   onchange="bus04mute" />
+			</row>
+			<row>
+				<slider text="Bus 5" id="bus5" progress="200" progressmax="208" onchange="update10" />
+			</row>
+			<row>
+				<toggle id="bus05B01" checked="false" text="Mono" color="blue"  onchange="bus05mono" />
+				<toggle id="bus05B02" checked="false" text="Mute" color="red"   onchange="bus05mute" />
+			</row>
+		</tab>
+	</tabs>
+</layout>

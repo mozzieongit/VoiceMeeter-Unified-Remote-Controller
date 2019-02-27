@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mozzi/CLionProjects/UnifiedRemote/VoicemeeterRemote.h
+
+C:/Users/mozzi/CLionProjects/UnifiedRemote/main.c
+stdio.h
+-
+windows.h
+-
+VoicemeeterRemote.h
+C:/Users/mozzi/CLionProjects/UnifiedRemote/VoicemeeterRemote.h
+
