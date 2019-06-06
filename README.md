@@ -3,9 +3,9 @@ Unified Remote for Voicemeeter Banana
 
 INSTALLATION: (German)
 
-1. Unified Remote Server (ServerSetup-3.6.1.xxxx.exe) installieren.
+1. Unified Remote Server installieren.
 
-2. Unified Remote App - APK installieren. (Apple: https://itunes.apple.com/de/app/unified-remote/id825534179)
+2. Unified Remote Full - APP installieren.
 
 3. "UnifiedRemote_VoiceMeeter_EXE" in einen Ordner deiner Wahl verschieben, in dem dieser Ordner für längere Zeit bleiben kann. 
     In diesem Ordner wird eine Datei erstellt, die die Initialisierungsdaten für die UnifiedRemoteApp enhält.
@@ -31,7 +31,11 @@ INSTALLATION: (English)
 		
 ----------
 LINKS:
+
 Unified Remote Server Download: https://www.unifiedremote.com/download
+
 Unified Remote App:
+
 -> Android: https://play.google.com/store/apps/details?id=com.Relmtech.RemotePaid&hl=en_US
+
 -> iOS: https://itunes.apple.com/de/app/unified-remote/id825534179
