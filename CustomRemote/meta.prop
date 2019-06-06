@@ -1,8 +1,0 @@
-meta.name: VoiceMeeter Remote
-meta.author: Jannik Peters
-meta.description: Voicemeeter Remote using VMRMAPI
-meta.icon: icon.png
-
-meta.platform: windows
-meta.version: 1
-meta.tags.category: media

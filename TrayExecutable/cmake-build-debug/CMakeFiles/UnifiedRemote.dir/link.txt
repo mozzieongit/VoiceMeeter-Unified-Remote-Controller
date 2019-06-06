@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2017.3.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\UnifiedRemote.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\UnifiedRemote.dir/objects.a @CMakeFiles\UnifiedRemote.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\UnifiedRemote.dir/objects.a -Wl,--no-whole-archive  -o UnifiedRemote.exe -Wl,--out-implib,libUnifiedRemote.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\UnifiedRemote.dir\linklibs.rsp
