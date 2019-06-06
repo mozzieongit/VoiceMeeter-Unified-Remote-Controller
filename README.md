@@ -32,5 +32,6 @@ INSTALLATION: (English)
 ----------
 LINKS:
 Unified Remote Server Download: https://www.unifiedremote.com/download
-Unified Remote App:	   Android: https://play.google.com/store/apps/details?id=com.Relmtech.RemotePaid&hl=en_US
-						   iOS: https://itunes.apple.com/de/app/unified-remote/id825534179
+Unified Remote App:
+-> Android: https://play.google.com/store/apps/details?id=com.Relmtech.RemotePaid&hl=en_US
+-> iOS: https://itunes.apple.com/de/app/unified-remote/id825534179
