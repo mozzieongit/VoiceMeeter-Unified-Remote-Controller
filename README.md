@@ -1,5 +1,5 @@
 # VM-Unified-Remote
-Unified Remote for Voicemeeter Banana
+Unified Remote for Voicemeeter Banana (Works also with Normal VoiceMeeter or with Potato; but with Potato M.C. buttons won't work)
 
 INSTALLATION: (German)
 
