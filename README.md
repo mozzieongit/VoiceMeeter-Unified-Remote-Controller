@@ -31,7 +31,7 @@ INSTALLATION: (English)
 
 4. Copy "VoiceMeeter RM" folder into the Unified Remote Bundled Remotes folder (probably: C:\ProgramData\Unified Remote\Remotes\Bundled)
 		And edit the file "remote.lua" to point to your copied path: (in line 5:)
-			local path = "C:\\Users\\mozzi\\Desktop\\Programme\\UnifiedRemote_VoiceMeeter_EXE\\voicemeeter_unified_remote.dat"
+			local path = "C:\\\\Users\\\\mozzi\\\\Desktop\\\\Programme\\\\UnifiedRemote_VoiceMeeter_EXE\\\\voicemeeter_unified_remote.dat"
 			
 5. Start "UnifiedRemote_VoiceMeeter_EXE" (can be minimized)
 
