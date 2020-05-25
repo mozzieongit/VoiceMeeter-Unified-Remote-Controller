@@ -10,7 +10,7 @@ INSTALLATION: (German)
 3. "UnifiedRemote_VoiceMeeter_EXE" in einen Ordner deiner Wahl verschieben, in dem dieser Ordner für längere Zeit bleiben kann. 
     In diesem Ordner wird eine Datei erstellt, die die Initialisierungsdaten für die UnifiedRemoteApp enhält.
     Kopiert den Pfad: (Bsp: "C:\Users\mozzi\Desktop\Programme\UnifiedRemote_VoiceMeeter_EXE") 
-	jedes "\" muss doppelt sein: "C:\\Users\\mozzi\\Desktop\\Programme\\UnifiedRemote_VoiceMeeter_EXE\\voicemeeter_unified_remote.dat")
+	jedes "\\" muss doppelt sein: "C:\\Users\\mozzi\\Desktop\\Programme\\UnifiedRemote_VoiceMeeter_EXE\\voicemeeter_unified_remote.dat")
 
 4. "VoiceMeeter RM" in "C:\ProgramData\Unified Remote\Remotes\Bundled" verschieben.
     In der Datei "remote.lua" den Pfad für "voicemeeter_unified_remote.dat" ändern.
