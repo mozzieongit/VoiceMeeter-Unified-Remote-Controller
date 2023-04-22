@@ -1,5 +1,7 @@
-# VM-Unified-Remote
+# Voicemeeter Unified Remote Controller
 Unified Remote for Voicemeeter Banana (Works also with Normal VoiceMeeter or with Potato; but with Potato M.C. buttons won't work)
+
+I finally found the old source code, though I don't know in which state it is. Maybe it's the code that resulted in the executable hosted in this repository.
 
 INSTALLATION: (German)
 

@@ -1,0 +1,37 @@
+#include "resource.h"
+ICO1 ICON DISCARDABLE "./pink.ico"
+
+MAINICON ICON "./pink.ico"
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "Jannik Peters"
+      VALUE "FileDescription", "Unified Remote Proxy Controller for Voicemeeter Pro"
+      VALUE "FileVersion", "1.0"
+      VALUE "InternalName", "URVMController"
+      VALUE "LegalCopyright", "Jannik P."
+      VALUE "OriginalFilename", "URVMController.exe"
+      VALUE "ProductName", "UnifiedRemote - Voicemeeter"
+      VALUE "ProductVersion", "1.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
+END
+
+MyMainAppMenu MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Usage",          ID_USAGE
+        MENUITEM SEPARATOR
+        MENUITEM "&Quit",           ID_TRAY_EXIT
+    END
+END
